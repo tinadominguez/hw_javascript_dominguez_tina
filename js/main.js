@@ -3,7 +3,7 @@ function howdy(person, message) {
     console.log(person + ' says' + message);
 }
 
-howdy();
+howdy('Tina', 'greetings!');
 
 //function expression
 
