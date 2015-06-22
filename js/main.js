@@ -1,7 +1,7 @@
 // function declaration
 function howdy(person, message) {
-        console.log(person + ' says' + message);
-    }
+    console.log(person + ' says' + message);
+}
 
 function howdy();
 
@@ -9,12 +9,9 @@ function howdy();
 
 if (numba > 7) {
     console.log('What a short little word!');
-} 
-
-else if (numba = 7 {
+} else if (numba = 7 {
     console.log('7, what a perfect choice!');
-}
-else {
+} else {
     console.log('I’m sorry, but that’s too many to count.');
 }
 
