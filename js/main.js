@@ -7,7 +7,7 @@ howdy('Tina', 'greetings!');
 
 //function expression
 var numba = function(string) {
-    if (string.length > 7) {
+    if (string.length < 7) {
         console.log('What a short little word!');
     } else if (string.length == 7) {
         console.log('7, what a perfect choice!');
