@@ -9,7 +9,7 @@ howdy('Tina', 'greetings!');
 
 if (numba > 7) {
     console.log('What a short little word!');
-} else if (numba = 7 {
+} else if (numba = 7) {
     console.log('7, what a perfect choice!');
 } else {
     console.log('I’m sorry, but that’s too many to count.');
