@@ -39,11 +39,11 @@ var Reagan = {
 };
 
 var presidents = [
-    'Obama',
-    'Bush',
-    'Clinton',
-    'Bush Sr.',
-    'Reagan',
+    Obama,
+    Bush,
+    Clinton,
+    BushSr,
+    Reagan,
 ];
 
 
