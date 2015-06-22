@@ -46,8 +46,4 @@ var presidents = [
     Reagan,
 ];
 
-
-function presidents() {
-    console.log('firstName' + 'lastName');
-}
-
+console.log( presidents[2].firstName + ' ' + presidents[2].lastName );
