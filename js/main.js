@@ -25,3 +25,8 @@ function inception (callback, value) {
     callback(value);
 }
 
+function logger( message ) {
+    console.log( message );
+}
+
+inception( logger, 'Inception is a great movie!' );
