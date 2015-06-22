@@ -22,7 +22,7 @@ var Clinton = {
     yearsofPresidency: 'eight',
 };
 
-var Bush Sr. = {
+var BushSr = {
     firstName: 'George H.W',
     lastName: 'Bush',
     termLength: 'one terms',
