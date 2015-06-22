@@ -9,7 +9,7 @@ howdy('Tina', 'greetings!');
 var numba = function(string) {
     if (string.length > 7) {
         console.log('What a short little word!');
-    } else if (string.length = 7) {
+    } else if (string.length == 7) {
         console.log('7, what a perfect choice!');
     } else {
         console.log('I’m sorry, but that’s too many to count.');
