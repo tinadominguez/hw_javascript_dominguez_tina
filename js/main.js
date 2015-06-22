@@ -1,6 +1,6 @@
 // function declaration
 function howdy(person, message) {
-    console.log(person + ' says' + message);
+    console.log(person + ' says ' + message);
 }
 
 howdy('Tina', 'greetings!');
