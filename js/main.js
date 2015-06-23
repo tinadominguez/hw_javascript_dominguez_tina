@@ -1,6 +1,6 @@
 var Obama = {
     firstName: 'Barack',
-   lastName: 'Obama',
+    lastName: 'Obama',
     termLength: 'two terms',
     party: 'democrat',
     yearsofPresidency: 'seven',
@@ -8,7 +8,7 @@ var Obama = {
 
 var Bush = {
     firstName: 'George W.',
-   lastName: 'Bush',
+    lastName: 'Bush',
     termLength: 'two terms',
     party: 'republican',
     yearsofPresidency: 'eight',
@@ -16,15 +16,15 @@ var Bush = {
 
 var Clinton = {
     firstName: 'Bill',
-   lastName: 'Clinton',
+    lastName: 'Clinton',
     termLength: 'two terms',
     party: 'democrat',
     yearsofPresidency: 'eight',
 };
 
-var Bush Sr. = {
+var BushSr = {
     firstName: 'George H.W',
-   lastName: 'Bush',
+    lastName: 'Bush',
     termLength: 'one terms',
     party: 'republican',
     yearsofPresidency: 'four',
@@ -32,22 +32,18 @@ var Bush Sr. = {
 
 var Reagan = {
     firstName: 'Ronald',
-   lastName: 'Reagan',
+    lastName: 'Reagan',
     termLength: 'two terms',
     party: 'republican',
     yearsofPresidency: 'eight',
 };
 
 var presidents = [
-    'Obama',
-    'Bush',
-    'Clinton',
-    'Bush Sr.',
-    'Reagan',
+    Obama,
+    Bush,
+    Clinton,
+    BushSr,
+    Reagan,
 ];
-    
 
-function presidents() {
-        console.log('firstName' + 'lastName');
-    }
-    
+console.log( presidents[2].firstName + ' ' + presidents[2].lastName );
